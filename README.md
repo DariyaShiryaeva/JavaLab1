@@ -20,11 +20,17 @@
 
 ## 📁 Структура проекта
 JavaLab1/
+
 ├── src/ # Исходный код
+
 │ ├── Main.java # Главный класс с меню
+
 │ ├── CheckInput.java # Утилиты для проверки ввода
+
 │ └── Test.java # Реализация методов заданий
+
 ├── README.md # Этот файл
+
 └── .gitignore # Git ignore файл
 
 ## 📚 Задания
@@ -54,3 +60,4 @@ javac src/*.java
 
 # Запуск
 java -cp src Main
+
