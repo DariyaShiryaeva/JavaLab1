@@ -42,21 +42,21 @@ JavaLab1/
 
 1. **Вычисление дробной части числа** - `fraction(double x)`
 
-  Берем исходное число x
+  Берем исходное число x  
   
-  Отбрасываем целую часть через приведение к (int)
+  Отбрасываем целую часть через приведение к (int)  
   
-  Возвращаем разность x - (int)x
+  Возвращаем разность x - (int)x  
 
-<img width="545" height="111" alt="{626A0550-A149-46FF-95F9-B7037E37586B}" src="https://github.com/user-attachments/assets/c7e5e1ec-ae05-4ece-8cf9-de878d5f06de" />
+<img width="545" height="111" alt="{626A0550-A149-46FF-95F9-B7037E37586B}" src="https://github.com/user-attachments/assets/c7e5e1ec-ae05-4ece-8cf9-de878d5f06de" />  
 
 2. **Преобразование символа в соответствующее число** - `charToNum(char x)`
   
-  Берем символ x (например, '7')
+  Берем символ x (например, '7')  
   
-  Используем коды ASCII: '0' = 48, '1' = 49, ...
+  Используем коды ASCII: '0' = 48, '1' = 49, ...  
   
-  Вычитаем код '0': (int)x - 48
+  Вычитаем код '0': (int)x - 48  
 
 <img width="299" height="114" alt="{A9E2DE29-DC26-4711-A94B-8EE9A5F58AE8}" src="https://github.com/user-attachments/assets/1302779d-a4a0-48db-8f26-fad58311173d" />
 
@@ -386,6 +386,7 @@ JavaLab1/
     Преобразовать arr[i] в строку и добавить к array с пробелом
   Добавить закрывающую скобку "]" к array
   Вывести полученную строку
+
 
 
 
