@@ -307,6 +307,7 @@ JavaLab1/
    ВЕРНУТЬ true (преобразование успешно)  
  ЕСЛИ возникло исключение NumberFormatException:  
    ВЕРНУТЬ false (строка не является целым числом)  
+   
      
 2.  **Метод проверяет, является ли строка числом с плавающей точкой** - `isDouble(String str)`    
 
@@ -315,8 +316,10 @@ JavaLab1/
     ВЕРНУТЬ true (преобразование успешно)  
   ЕСЛИ возникло исключение NumberFormatException ИЛИ NullPointerException:  
     ВЕРНУТЬ false (строка не является числом с плавающей точкой)  
+    <img width="844" height="161" alt="{C14E2414-2C75-4032-B9D5-F72954F0A9F8}" src="https://github.com/user-attachments/assets/b6cf4d20-cefb-4a74-a2f1-a49785e25117" />  
 
-4. **Метод проверяет корректность long-числа с дополнительной валидацией** - `isValidLong(String str)`    
+
+3. **Метод проверяет корректность long-числа с дополнительной валидацией** - `isValidLong(String str)`    
 
   Установить startIndex = 0  
   ЕСЛИ первый символ строки == '-':  
@@ -334,6 +337,7 @@ JavaLab1/
     ВЕРНУТЬ true  
   ЕСЛИ возникло исключение NumberFormatException:  
     ВЕРНУТЬ false (число вне диапазона long)  
+    
 
 4. **Метод гарантированно возвращает целое число с обработкой ошибок** - `getInteger(Scanner scanner)`    
 
@@ -345,6 +349,7 @@ JavaLab1/
   ИНАЧЕ:  
     Вывести сообщение об ошибке  
     Продолжить цикл для повторного ввода  
+    <img width="834" height="178" alt="{CB86965E-837B-462D-8A0A-39969E1EC341}" src="https://github.com/user-attachments/assets/e3c257bc-87aa-4ee9-a774-00c59eccbc51" />  
 
 6. **Метод возвращает long-число с проверкой диапазона и формата** - `getLong(Scanner scanner)`    
 
@@ -355,6 +360,8 @@ JavaLab1/
     ИНАЧЕ:  
       Вывести сообщение об ошибке  
       Предложить повторный ввод  
+      <img width="636" height="148" alt="{82C18CEC-D051-4389-AE27-E180634C63FD}" src="https://github.com/user-attachments/assets/ac4d05a0-e876-40ad-af9b-dd1a88256973" />  
+
 
 8. **Метод запрашивает выбор из двух вариантов (1 или 2)** - `getNumb12(Scanner scanner)`    
 
@@ -369,6 +376,8 @@ JavaLab1/
         Вывести сообщение об ошибке диапазона  
     ИНАЧЕ:  
       Вывести сообщение об ошибке формата  
+    <img width="749" height="107" alt="{DEB7755B-4EA9-44B8-AC1C-0F4D9112942D}" src="https://github.com/user-attachments/assets/420e7148-f503-4821-8606-5de5326f36dc" />  
+
 
 10. **Метод заполняет массив целыми числами** - `getIntArray(Scanner scanner, int amount)`    
   
@@ -378,6 +387,8 @@ JavaLab1/
     Получить целое число с помощью getInteger(scanner)  
     Записать число в массив по индексу i  
   ВЕРНУТЬ заполненный массив  
+  <img width="427" height="326" alt="{7F426C4D-E072-4911-9A0B-50DDD84E98E2}" src="https://github.com/user-attachments/assets/f832a994-168d-4c1f-a022-b1eb281948fe" />  
+
 
 11. **Метод выводит массив в форматированном виде** - `outArray(int[] arr, int amount)`    
   Вывести заголовок "Ваш массив:"  
@@ -386,6 +397,8 @@ JavaLab1/
     Преобразовать arr[i] в строку и добавить к array с пробелом  
   Добавить закрывающую скобку "]" к array  
   Вывести полученную строку  
+<img width="156" height="59" alt="{CD6284F7-89DC-431B-82A4-9E0F023E5005}" src="https://github.com/user-attachments/assets/55786579-351a-4234-805f-f8232228b272" />
+
 
 
 
